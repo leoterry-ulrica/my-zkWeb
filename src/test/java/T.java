@@ -23,7 +23,7 @@ public class T {
 
 		try {
 			Properties p = new Properties();
-			p.setProperty("host", "192.168.20.111:2181");
+			p.setProperty("host", "192.168.147.128:2181");
 			p.setProperty("sessionTimeOut", "3000");
 			ZkManagerImpl zk = ZkManagerImpl.createZk();
 			zk.connect(p);
